@@ -6,7 +6,23 @@
 string[] str = { "Hello", "2", "world", ":-)" };
 
 
+string[] CreatNewArray(string[]str)
+{
+ 
+   int count = Position(str);
+   string[] strnew = new string[count];
+   int i = 0;
+   foreach (string s in str)
+   {
+      if(s.Count()<=3)
+      {
+      strnew[i]= s;
+      i++;
+      }
+   }
 
+   return strnew;
+}
 
 
 
