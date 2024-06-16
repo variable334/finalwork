@@ -41,3 +41,21 @@ int Position (string[]str)
    return count;
    
 }
+
+void PrintStringArray (string[] str)
+{
+   Console.Write("[ ");
+   for (int i = 0; i < str.Length; i++)
+   {
+      if(i < str.Length-1)
+      {
+         Console.Write(str[i]+ " , ");
+
+      }
+      else
+      {
+         Console.Write(str[i]);
+      }
+   }
+   Console.Write(" ]");
+}
