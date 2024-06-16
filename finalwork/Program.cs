@@ -66,4 +66,3 @@ Console.Write("Исходный массив строк => ");
 PrintStringArray(str);
 Console.WriteLine();
 Console.WriteLine("Новый массив строк, с параметром строки <=3: ");
-PrintStringArray(s);
